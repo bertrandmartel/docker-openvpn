@@ -1,2 +1,4 @@
 /config
 stackfile.yml
+/server-conf
+/client-conf
