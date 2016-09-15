@@ -1,5 +1,9 @@
 # OpenVpn minimal docker image
 
+[![Build Status](https://travis-ci.org/akinaru/docker-openvpn.svg?branch=master)](https://travis-ci.org/akinaru/docker-openvpn)
+[![](https://images.microbadger.com/badges/version/akinaru/docker-openvpn.svg)](http://microbadger.com/images/akinaru/docker-openvpn)
+[![](https://images.microbadger.com/badges/image/akinaru/docker-openvpn.svg)](http://microbadger.com/images/akinaru/docker-openvpn)
+
 A minimal OpenVpn docker image to be run with an already existing configuration
 
 Place your configuraton `/etc/openvpn` directory in a local `config` directory. This configuration directory should contain `openvpn.conf` for your server/client configuration file
