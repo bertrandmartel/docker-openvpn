@@ -9,7 +9,10 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/edge/community/" >> /etc/apk/reposi
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
 COPY run.sh /
+COPY docker-entrypoint.sh /
 
 RUN chmod 777 /run.sh
+RUN chmod 777 /docker-entrypoint.sh
 
-ENTRYPOINT ["/run.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]
+CMD ["/run.sh"]
