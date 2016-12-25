@@ -10,7 +10,7 @@ install:
 # Assist with ci test debugging:
 #   - DEBUG=1
 before_script:
-    - image="akinaru/docker-openvpn"
+    - image="bertrandmartel/docker-openvpn"
     - docker build -t "$image" .
     - docker inspect "$image"
 

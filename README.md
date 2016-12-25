@@ -1,8 +1,8 @@
 # OpenVpn minimal docker image
 
-[![Build Status](https://travis-ci.org/akinaru/docker-openvpn.svg?branch=master)](https://travis-ci.org/akinaru/docker-openvpn)
-[![](https://images.microbadger.com/badges/version/akinaru/docker-openvpn.svg)](http://microbadger.com/images/akinaru/docker-openvpn)
-[![](https://images.microbadger.com/badges/image/akinaru/docker-openvpn.svg)](http://microbadger.com/images/akinaru/docker-openvpn)
+[![Build Status](https://travis-ci.org/bertrandmartel/docker-openvpn.svg?branch=master)](https://travis-ci.org/bertrandmartel/docker-openvpn)
+[![](https://images.microbadger.com/badges/version/bertrandmartel/docker-openvpn.svg)](http://microbadger.com/images/bertrandmartel/docker-openvpn)
+[![](https://images.microbadger.com/badges/image/bertrandmartel/docker-openvpn.svg)](http://microbadger.com/images/bertrandmartel/docker-openvpn)
 
 A minimal OpenVpn docker image to be run with an already existing configuration
 
@@ -25,7 +25,7 @@ VPN_CONFIG="config"
 * start openvpn  :
 
 ```
-docker run -v $VPN_CONFIG:/etc/openvpn -d -p 1194:1194/udp --cap-add=NET_ADMIN akinaru/docker-openvpn
+docker run -v $VPN_CONFIG:/etc/openvpn -d -p 1194:1194/udp --cap-add=NET_ADMIN bertrandmartel/docker-openvpn
 ```
 
 ## Docker-compose

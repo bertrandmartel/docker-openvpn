@@ -1,5 +1,5 @@
 openvpn-server:
-  image: "akinaru/docker-openvpn"
+  image: "bertrandmartel/docker-openvpn"
   tags:
     - openvpn
   restart: always
